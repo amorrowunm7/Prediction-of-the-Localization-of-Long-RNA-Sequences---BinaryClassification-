@@ -1,0 +1,171 @@
+Last login: Tue Apr 16 20:06:19 on ttys000
+-bash: /Users/amandamorrow/.bash_profile: line 142: unexpected EOF while looking for matching `"'
+-bash: /Users/amandamorrow/.bash_profile: line 147: syntax error: unexpected end of file
+amandas-MacBook-Air:~ amandamorrow$ cd /Users/amandamorrow/Desktop
+amandas-MacBook-Air:Desktop amandamorrow$ ls
+Capstone		RNA copy		untitled folder
+RNA			amandam1@login.uhd.edu	untitled folder 2
+amandas-MacBook-Air:Desktop amandamorrow$ scp -r RNA  ssh amandam1@Scilog.uhd.edu:
+amandam1@scilog.uhd.edu's password: 
+.DS_Store                                     100% 6148   175.2KB/s   00:00    
+lstm_model_weights.h5                         100%  608KB 739.3KB/s   00:00    
+feedforward_model_weights.h5                  100% 3327KB 829.5KB/s   00:04    
+cnn_model_weights.h5                          100%   10MB 733.1KB/s   00:14    
+feedforward_CNN.py                            100%   12KB 367.0KB/s   00:00    
+feedforward_model.png                         100%   27KB 652.7KB/s   00:00    
+cnn_model.png                                 100%   35KB 762.5KB/s   00:00    
+predict.py                                    100% 7534   229.0KB/s   00:00    
+__init__.py                                   100%    0     0.0KB/s   00:00    
+cnn_model.json                                100% 4828   148.7KB/s   00:00    
+lstm_model.json                               100% 3237   104.5KB/s   00:00    
+feedforward_model.json                        100% 4861   154.4KB/s   00:00    
+rnn_lstm_train.py                             100% 7336   228.7KB/s   00:00    
+lncRNA_amanda.fasta                           100% 9657KB 740.9KB/s   00:13    
+README.md                                     100%   17     0.6KB/s   00:00    
+Kmer_&_Seqcuence_classifier- Final.ipynb      100%   70KB 950.3KB/s   00:00    
+Kmer_count_classifier 4mer.ipynb              100%   71KB 919.3KB/s   00:00    
+Kmer_&_Seqcuence_classifier_LSTM_MLP.ipynb    100%   69KB   1.0MB/s   00:00    
+Kmer_count_classifier 8mer.ipynb              100%   60KB   1.1MB/s   00:00    
+Random Forest and Logistic Regression (1).ipy 100%   19KB 522.0KB/s   00:00    
+.gitignore                                    100% 1754    55.1KB/s   00:00    
+train.py                                      100% 5804   177.4KB/s   00:00    
+lstm_model.png                                100%   20KB 528.9KB/s   00:00    
+cnn_train.py                                  100% 9007   279.4KB/s   00:00    
+cnn_loss.png                                  100%   35KB 694.2KB/s   00:00    
+lstm_loss.png                                 100%   41KB 768.4KB/s   00:00    
+feedforward_loss.png                          100%   24KB 644.3KB/s   00:00    
+feedforward_accuracy.png                      100%   23KB 586.7KB/s   00:00    
+cnn_accuracy.png                              100%   34KB 702.7KB/s   00:00    
+lstm_accuracy.png                             100%   49KB 934.4KB/s   00:00    
+prepare_data.py                               100% 4535   132.0KB/s   00:00    
+SequenceHelper.py                             100% 3093   100.5KB/s   00:00    
+__init__.py                                   100%    0     0.0KB/s   00:00    
+data_helpers.py                               100%   20KB 542.1KB/s   00:00    
+IOHelper.py                                   100% 7152   195.3KB/s   00:00    
+feedforward_train.py                          100% 7436   220.4KB/s   00:00    
+ssh: No such file or directory
+amandas-MacBook-Air:Desktop amandamorrow$ ls
+Capstone		RNA copy		untitled folder
+RNA			amandam1@login.uhd.edu	untitled folder 2
+amandas-MacBook-Air:Desktop amandamorrow$ scp -r RNA  ssh amandam1@Scilog.uhd.edu:
+amandam1@scilog.uhd.edu's password: 
+.DS_Store                                     100% 6148   185.8KB/s   00:00    
+lstm_model_weights.h5                         100%  608KB 202.3KB/s   00:03    
+feedforward_model_weights.h5                  100% 3327KB 664.1KB/s   00:05    
+cnn_model_weights.h5                          100%   10MB 602.7KB/s   00:17    
+feedforward_CNN.py                            100%   12KB 251.7KB/s   00:00    
+feedforward_model.png                         100%   27KB 474.9KB/s   00:00    
+cnn_model.png                                 100%   35KB 601.9KB/s   00:00    
+predict.py                                    100% 7534   175.6KB/s   00:00    
+__init__.py                                   100%    0     0.0KB/s   00:00    
+cnn_model.json                                100% 4828   142.7KB/s   00:00    
+lstm_model.json                               100% 3237    89.0KB/s   00:00    
+feedforward_model.json                        100% 4861   122.3KB/s   00:00    
+rnn_lstm_train.py                             100% 7336   168.6KB/s   00:00    
+lncRNA_amanda.fasta                           100% 9657KB 602.2KB/s   00:16    
+README.md                                     100%   17     0.6KB/s   00:00    
+Kmer_&_Seqcuence_classifier- Final.ipynb      100%   70KB 733.7KB/s   00:00    
+Kmer_count_classifier 4mer.ipynb              100%   71KB 930.8KB/s   00:00    
+Kmer_&_Seqcuence_classifier_LSTM_MLP.ipynb    100%   69KB 907.0KB/s   00:00    
+Kmer_count_classifier 8mer.ipynb              100%   60KB 962.1KB/s   00:00    
+Random Forest and Logistic Regression (1).ipy 100%   19KB 510.8KB/s   00:00    
+.gitignore                                    100% 1754    51.6KB/s   00:00    
+train.py                                      100% 5804   177.8KB/s   00:00    
+lstm_model.png                                100%   20KB 492.9KB/s   00:00    
+cnn_train.py                                  100% 9007   222.9KB/s   00:00    
+cnn_loss.png                                  100%   35KB 686.8KB/s   00:00    
+lstm_loss.png                                 100%   41KB 846.1KB/s   00:00    
+feedforward_loss.png                          100%   24KB 580.2KB/s   00:00    
+feedforward_accuracy.png                      100%   23KB 535.3KB/s   00:00    
+cnn_accuracy.png                              100%   34KB 697.9KB/s   00:00    
+lstm_accuracy.png                             100%   49KB 867.8KB/s   00:00    
+prepare_data.py                               100% 4535   136.1KB/s   00:00    
+SequenceHelper.py                             100% 3093    95.3KB/s   00:00    
+__init__.py                                   100%    0     0.0KB/s   00:00    
+data_helpers.py                               100%   20KB 440.8KB/s   00:00    
+IOHelper.py                                   100% 7152   186.9KB/s   00:00    
+feedforward_train.py                          100% 7436   231.1KB/s   00:00    
+ssh: No such file or directory
+amandas-MacBook-Air:Desktop amandamorrow$ ls
+Capstone		RNA copy		untitled folder
+RNA			amandam1@login.uhd.edu	untitled folder 2
+amandas-MacBook-Air:Desktop amandamorrow$  ssh amandam1@Scilog.uhd.edu
+amandam1@scilog.uhd.edu's password: 
+Last login: Tue Apr 16 20:09:58 2019 from c-73-76-229-147.hsd1.tx.comcast.net
+(base) [amandam1@login ~]$ ls
+anaconda3                          cnn_train.py          job2.sh
+Anaconda3-2019.03-Linux-x86_64.sh  feedforward_train.py  Python-3.4.3.tgz
+Capstone                           job1.e.txt            RNA
+CNN3.py                            job1.out.txt          test
+cnn.py                             job1.sh               test.py
+(base) [amandam1@login ~]$ ls
+anaconda3                          cnn_train.py          job2.sh
+Anaconda3-2019.03-Linux-x86_64.sh  feedforward_train.py  Python-3.4.3.tgz
+Capstone                           job1.e.txt            RNA
+CNN3.py                            job1.out.txt          test
+cnn.py                             job1.sh               test.py
+(base) [amandam1@login ~]$ cd RNA/
+(base) [amandam1@login RNA]$ ls
+4merAll.csv              helpers              predict.py
+amandam1@Scilog.uhd.edu  HotEnocodingLSTM.py  prior_work_done
+cnn_100.py               __init__.py          __pycache__
+cnn_model.png            lstm_model.png       raw_data
+cnn_train.py             models_arch          README.md
+feedforward_CNN.py       model_stats          rnn_lstm_train.py
+feedforward_model.png    models_weights       Terminal Saved Output
+feedforward_train.py     OneHotEncoding.py    train.py
+(base) [amandam1@login RNA]$ vim cnn_train.py
+(base) [amandam1@login RNA]$ vim cnn_train.py
+(base) [amandam1@login RNA]$ python cnn_train.py
+Using TensorFlow backend.
+OMP: Info #212: KMP_AFFINITY: decoding x2APIC ids.
+OMP: Info #210: KMP_AFFINITY: Affinity capable, using global cpuid leaf 11 info
+OMP: Info #154: KMP_AFFINITY: Initial OS proc set respected: 0-15
+OMP: Info #156: KMP_AFFINITY: 16 available OS procs
+OMP: Info #157: KMP_AFFINITY: Uniform topology
+OMP: Info #179: KMP_AFFINITY: 2 packages x 4 cores/pkg x 2 threads/core (8 total cores)
+OMP: Info #214: KMP_AFFINITY: OS proc to physical thread map:
+OMP: Info #171: KMP_AFFINITY: OS proc 0 maps to package 0 core 0 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 8 maps to package 0 core 0 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 1 maps to package 0 core 1 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 9 maps to package 0 core 1 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 2 maps to package 0 core 2 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 10 maps to package 0 core 2 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 3 maps to package 0 core 3 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 11 maps to package 0 core 3 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 4 maps to package 1 core 0 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 12 maps to package 1 core 0 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 5 maps to package 1 core 1 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 13 maps to package 1 core 1 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 6 maps to package 1 core 2 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 14 maps to package 1 core 2 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 7 maps to package 1 core 3 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 15 maps to package 1 core 3 thread 1 
+OMP: Info #250: KMP_AFFINITY: pid 7938 tid 7938 thread 0 bound to OS proc set 0
+OMP: Info #250: KMP_AFFINITY: pid 7938 tid 7945 thread 2 bound to OS proc set 2
+OMP: Info #250: KMP_AFFINITY: pid 7938 tid 7944 thread 1 bound to OS proc set 1
+OMP: Info #250: KMP_AFFINITY: pid 7938 tid 7946 thread 3 bound to OS proc set 3
+OMP: Info #250: KMP_AFFINITY: pid 7938 tid 7947 thread 4 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 7938 tid 7948 thread 5 bound to OS proc set 5
+OMP: Info #250: KMP_AFFINITY: pid 7938 tid 7949 thread 6 bound to OS proc set 6
+OMP: Info #250: KMP_AFFINITY: pid 7938 tid 7950 thread 7 bound to OS proc set 7
+Creating Model...
+WARNING:tensorflow:From /home/amandam1/anaconda3/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+Traceback (most recent call last):
+  File "cnn_train.py", line 175, in <module>
+    drop, epochs, batch_size)
+  File "cnn_train.py", line 111, in create_cnn_rna_seq
+    kernel_initializer='normal', activation='relu')(reshape)
+  File "/home/amandam1/anaconda3/lib/python3.7/site-packages/keras/legacy/interfaces.py", line 91, in wrapper
+    return func(*args, **kwargs)
+  File "/home/amandam1/anaconda3/lib/python3.7/site-packages/keras/layers/convolutional.py", line 359, in __init__
+    **kwargs)
+  File "/home/amandam1/anaconda3/lib/python3.7/site-packages/keras/layers/convolutional.py", line 109, in __init__
+    'kernel_size')
+  File "/home/amandam1/anaconda3/lib/python3.7/site-packages/keras/utils/conv_utils.py", line 39, in normalize_tuple
+    str(n) + ' integers. Received: ' + str(value))
+ValueError: The `kernel_size` argument must be a tuple of 1 integers. Received: (3, 256)
+(base) [amandam1@login RNA]$ vim cnn_train.py
+(base) [amandam1@login RNA]$ 
